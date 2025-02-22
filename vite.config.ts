@@ -13,12 +13,13 @@ export default defineConfig({
         background: 'src/background/index.ts',
         content: 'src/content/index.ts',
         popupScript: 'src/popup/index.tsx',
+        styles: "src/popup/index.css",
       },
       output: {
         entryFileNames: 'assets/[name].js',
         chunkFileNames: 'assets/[name].js',
         assetFileNames: 'assets/[name].[ext]',
-      },
+      }
     },
-  },
+  }
 });
