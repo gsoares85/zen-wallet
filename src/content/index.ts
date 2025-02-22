@@ -1,1 +1,1 @@
-console.log("Content script injected");
+console.log('Content script injected');
